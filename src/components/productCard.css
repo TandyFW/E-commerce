@@ -1,0 +1,33 @@
+.product-card {
+  height: 210px;
+  display: flex;
+  border: 2px solid green;
+  border-radius: 25px;
+  box-sizing: border-box;
+  width: 25%;
+  margin: 10px;
+}
+
+.product-card-info {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+}
+
+.product-card-image {
+  position: relative;
+  align-self: center;
+  margin: 0;
+  padding: 0;
+}
+
+.product-card-image img {
+  box-sizing: border-box;
+  width: 200px;
+  border-radius: 100%;
+}
